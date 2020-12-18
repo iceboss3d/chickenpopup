@@ -1,9 +1,9 @@
-export interface FormData {
+export interface IFormData {
     product?: string;
     units?: number;
 }
 
-export interface ShoppingCart {
+export interface IShoppingCart {
     item: string;
     units: number;
     pricePerUnit: number
